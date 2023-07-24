@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 
 
-mongoose.connect('mongodb+srv://Mourad:Mourad@cluster0.los7xbu.mongodb.net/ISMAGI_Courses')
+mongoose.connect('') // MongoDB link
     .then(() => {
         console.log("Connected successfully")
     })
